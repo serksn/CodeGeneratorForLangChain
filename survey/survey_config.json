@@ -1,0 +1,88 @@
+{
+  "survey": {
+    "name": "health_assessment",
+    "questions": [
+      {
+        "question": "Full Name",
+        "type": "text",
+        "is_required": "True"
+      },
+      {
+        "question": "Gender",
+        "type": "multiple_choice",
+        "options": ["Male", "Female", "Other"],
+        "is_required": "True"
+      },
+      {
+        "question": "Age",
+        "type": "number",
+        "is_required": "True"
+      },
+      {
+        "question": "Ethnicity",
+        "type": "text",
+        "is_required": "True"
+      },
+      {
+        "question": "Weight (kg)",
+        "type": "number",
+        "is_required": "True"
+      },
+      {
+        "question": "Height (cm)",
+        "type": "number",
+        "is_required": "True"
+      },
+      {
+        "question": "Body Mass Index (BMI): BMI = weight / (height in m²). Categories: Normal (18.5-24.9); Underweight (<18.5); Overweight (25-29.9); Obesity Class 1 (30-34.9); Obesity Class 2 (35-39.9); Obesity Class 3 (>40). For people of Mongoloid ethnicity: Normal (18.5-22.9); Overweight (≥23); Obesity Class 1 (≥27.5); Obesity Class 2 (≥32.5); Obesity Class 3 (≥37.5). (Clinical Guidelines: 'Treatment of Obesity and Comorbid Diseases' — 2021)",
+        "type": "number",
+        "is_required": "True"
+      },
+      {
+        "question": "Smoking Status",
+        "type": "multiple_choice",
+        "options": ["Currently smoking", "Non-smoker", "Never smoked", "Former smoker", "Quit smoking"],
+        "is_required": "True"
+      },
+      {
+        "question": "Current Living Conditions (for students)",
+        "type": "text",
+        "is_required": "False"
+      },
+      {
+        "question": "Waist Circumference (cm): Abdominal obesity is defined as WC ≥ 80 cm for women and WC ≥ 94 cm for men. For Mongoloid men: WC ≥ 90 cm = abdominal obesity.",
+        "type": "number",
+        "is_required": "True"
+      },
+      {
+        "question": "Level of Physical Activity: Based on a short Yes/No response or Motor Activity Index calculation. Hypodynamia thresholds: <21 points (18-39 years); <14 points (40-65 years); <7 points (>65 years).",
+        "type": "multiple_choice",
+        "options": ["Yes", "No"],
+        "is_required": "True"
+      },
+      {
+        "question": "Presence of Hypertension",
+        "type": "multiple_choice",
+        "options": ["Yes", "No", "Unknown"],
+        "is_required": "True"
+      },
+      {
+        "question": "Known recent blood pressure level: Systolic (upper) and Diastolic (lower)",
+        "type": "text",
+        "is_required": "False"
+      },
+      {
+        "question": "Family history of cardiovascular diseases",
+        "type": "multiple_choice",
+        "options": ["Yes - burdened (details)", "No"],
+        "is_required": "True"
+      },
+      {
+        "question": "Do you have a diagnosed Migraine?",
+        "type": "multiple_choice",
+        "options": ["Yes", "No"],
+        "is_required": "True"
+      }
+    ]
+  }
+}

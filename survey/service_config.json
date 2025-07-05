@@ -1,0 +1,9 @@
+{
+    "service": {
+      "name": "survey_service",
+      "endpoint": "http://localhost:5000/survey",
+      "method": "POST"
+    }
+}
+
+ 

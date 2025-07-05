@@ -1,0 +1,9 @@
+{
+    "service": {
+      "name": "order_service",
+      "endpoint": "http://localhost:5000/order",
+      "method": "POST"
+    }
+}
+
+ 

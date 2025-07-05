@@ -1,0 +1,43 @@
+{
+  "product": {
+    "name": "pizza",
+    "parameters": [
+      {
+        "name": "Type",
+        "synonyms": ["margherita", "margarita", "pepperoni", "salami", "vegetarian", "veggie", "vegetable", "hawaiian", "pineapple"],
+        "is_required": "True",
+        "is_collection": "False"
+      },
+      {
+        "name": "Size",
+        "synonyms": ["small", "little", "tiny", "medium", "average", "middle", "large", "big", "huge"],
+        "is_required": "True",
+        "is_collection": "False"
+      },
+      {
+        "name": "Crust",
+        "synonyms": ["thin", "light", "crispy", "thick", "dense", "stuffed", "filled"],
+        "is_required": "True",
+        "is_collection": "False"
+      },
+      {
+        "name": "Toppings",
+        "synonyms": ["cheese", "extra cheese", "mushrooms", "fungi", "onions", "pepperoni", "salami", "olives", "bacon", "pineapple", "peppers", "bell peppers"],
+        "is_required": "False",
+        "is_collection": "True"
+      },
+      {
+        "name": "Spice",
+        "synonyms": ["mild", "not spicy", "low spice", "medium", "average spice", "moderate spice", "hot", "spicy", "extra spicy"],
+        "is_required": "True",
+        "is_collection": "False"
+      },
+      {
+        "name": "Additional",
+        "synonyms": ["extra cheese", "gluten-free", "no onions", "without onions", "vegan cheese", "none", "more salad"],
+        "is_required": "False",
+        "is_collection": "True"
+      }
+    ]
+  }
+}
